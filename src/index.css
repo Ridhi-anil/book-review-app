@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root {
+  min-height: 100vh;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background-image: radial-gradient(to bottom, #96b6d3, #9c84c9);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+  margin:0;
+  text-align:center;
+  background-image:linear-gradient(to bottom, #accfd7,#5c9ff2)
+}
+
+.preview-posts{
+  border:2px solid rgb(54, 168, 225);
+  margin: 12px;
+  background-color: rgb(17, 121, 142,0.5) ;
+  width:400px;
+  height: 300px;
+  overflow:auto;
+  border-radius: 15%;
+}
+.preview-list{
+  list-style-type: none;
+  
+}
+.list-items{
+  display: inline-block;
+}
+
+.priview-description{
+  font-family: "Winky Rough","sopia";
+  align-items: center;
+  
+  
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.modal {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 13px;
+  overflow: hidden;
+  z-index: 1;
+}
